@@ -1,59 +1,119 @@
-## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+## Drug Recommendation System Using Machine Learning
+
+The development of a drug recommendation system that intelligently suggests suitable medications based on patient symptoms, diagnosis, and health parameters using machine learning, helping healthcare providers support faster and more accurate treatment decisions.
 
 ## About
-<!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+
+The Drug Recommendation System is an intelligent healthcare support platform designed to recommend appropriate medicines for patients using machine learning techniques. Traditional healthcare consultation requires manual analysis of medical history and symptom evaluation, which is time-consuming and prone to human error. This project overcomes these challenges by analyzing patient data using predictive models to suggest relevant drugs efficiently and accurately. The system focuses on improving treatment decision support, enhancing healthcare accessibility, and minimizing prescription mismatches.
 
 ## Features
-<!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+
+Machine learning-based drug recommendation using trained classification models.
+
+Support for analyzing patient inputs such as symptoms, disease type, age, and medical history.
+
+User-friendly web interface for entering patient records and viewing results.
+
+Secure database handling for storing patient data and recommendations.
+
+Real-time prediction and result display with detailed explanation of recommended drugs.
+
+Admin/Doctor dashboard for viewing past recommendations and patient insights.
+
+Scalable design with modular architecture for future integration like EHR systems, hospital databases, and telemedicine platforms.
 
 ## Requirements
-<!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+
+* Operating System: Any modern OS such as Windows 10/11, Ubuntu Linux, or macOS.
+* Development Environment: Python environment with Anaconda/Jupyter Notebook or IDEs like PyCharm/VS Code.
+* Technology Stack
+  
+Programming Language: Python
+
+Machine Learning Libraries: Scikit-learn, Pandas, NumPy
+
+Visualization Tools: Matplotlib / Seaborn for result visualization
+
+Backend (Optional Web App): Flask / Django
+
+Database: CSV / MySQL / Firebase depending on implementation
+
+Tools & Utilities
+
+Git/GitHub for version control
+
+Dataset preprocessing tools
+
+Browser for running web-based interface if deployed
 
 ## System Architecture
-<!--Embed the system architecture diagram as shown below-->
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+Data Collection & Preprocessing
+
+Feature Extraction and Encoding
+
+Machine Learning Model Training (e.g., Decision Tree / Random Forest / SVM)
+
+Model Evaluation and Testing
+
+User Input Processing
+
+Drug Recommendation Output Generation
+
+Data Storage and Retrieval
+
+<img width="833" height="313" alt="image" src="https://github.com/user-attachments/assets/3f79337f-7ab8-420e-bd20-6cb45af562c7" />
+
 
 
 ## Output
 
-<!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+#### Output1 - Dataset Loaded – Sample Patient Records
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
+<img width="785" height="267" alt="image" src="https://github.com/user-attachments/assets/2d72456f-ab43-493e-939e-4ac2cea7f8a8" />
 
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
+#### Output2 - Drug Distribution Graph
+
+<img width="695" height="364" alt="image" src="https://github.com/user-attachments/assets/b719129d-e8aa-40ee-abb0-6a194e910f86" />
+### Output3 - Age vs Na_to_K Scatter Plot
+
+<img width="616" height="298" alt="image" src="https://github.com/user-attachments/assets/8156af88-29af-43bb-a21e-b2d742795500" />
+
+### Output4 -   Drug vs Blood Pressure Graph
+
+<img width="571" height="295" alt="image" src="https://github.com/user-attachments/assets/97fdf36b-1dc6-4cd9-85c1-61bbba7350dd" />
+
+### Output5 - Feature Correlation Heatmap
+
+<img width="540" height="454" alt="image" src="https://github.com/user-attachments/assets/81e78483-f001-4924-bfdf-45aa23130ac7" />
+
+### Output6 - Model Accuracy Output
+
+<img width="815" height="376" alt="image" src="https://github.com/user-attachments/assets/605465ec-de2d-46e3-a081-f53064efa50c" />
+
+### Output7 - Final Drug Recommendation Output
+
+<img width="805" height="355" alt="image" src="https://github.com/user-attachments/assets/103cc1a0-9f6b-479f-8a30-a39db17d80ca" />
+
+
 
 
 ## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
 
+The Drug Recommendation System demonstrates how machine learning can enhance healthcare decision support by intelligently mapping patient symptoms to appropriate medications. It reduces manual workload, minimizes prescription errors, and provides a reliable digital assistant for doctors and healthcare institutions. This project serves as a practical learning platform for applying ML in healthcare and can be extended with real-time hospital data, disease prediction models, and integration with telemedicine platforms.
 This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
 
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
 
+1.Scikit-learn Documentation – Machine Learning Algorithms
 
+2.UCI Machine Learning Repository – Healthcare / Drug Datasets
+
+3.Research Papers on Drug Recommendation and Predictive Healthcare Systems
+
+4.Kaggle Documentation – Medical Dataset Resources
+
+5.Python, Pandas, NumPy, and ML Framework Documentation
 
 
