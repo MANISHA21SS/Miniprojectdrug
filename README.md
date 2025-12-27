@@ -76,6 +76,7 @@ Data Storage and Retrieval
 #### Output2 - Drug Distribution Graph
 
 <img width="695" height="364" alt="image" src="https://github.com/user-attachments/assets/b719129d-e8aa-40ee-abb0-6a194e910f86" />
+
 ### Output3 - Age vs Na_to_K Scatter Plot
 
 <img width="616" height="298" alt="image" src="https://github.com/user-attachments/assets/8156af88-29af-43bb-a21e-b2d742795500" />
